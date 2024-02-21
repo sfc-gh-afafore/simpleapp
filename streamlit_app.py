@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import seaborn as sns
 
 
 def main():
@@ -16,4 +17,5 @@ def main():
 
 
 if __name__ == "__main__":
+    sns.set(style="whitegrid")
     main()
